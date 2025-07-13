@@ -22,7 +22,7 @@ int main() {
 		cout << "Invalid input. Enter a non-negative number: ";
 		cin >> dailyIncrease;
 	}
-	cout << "Enter the number of days the people will mulyiply (minimum 1): ";
+	cout << "Enter the number of days the people will multiply (minimum 1): ";
 	cin >> numDays;
 	while (numDays < 1) {
 		cout << "Invalid input. Enter a number greater than or equal to 1:";
