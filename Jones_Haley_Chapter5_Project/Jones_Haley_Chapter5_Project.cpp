@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-	cout << "Pattern A         Pattern B" << endl;
+	cout << "Pattern A    Pattern B" << endl;
 
 	for (int i = 1; i <= 10; i++) {
 
