@@ -32,11 +32,12 @@ int main() {
 	while (inputFile >> population) {
 		cout << year << " ";
 		for (int i = 0; i < population / 1000; ++i) {
+			cout << "*";
 		}
 		cout << endl;
 		year += 20;
 	}
-
+	
 	inputFile.close();
 	return 0;
 }
