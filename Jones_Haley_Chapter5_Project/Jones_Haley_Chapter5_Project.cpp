@@ -27,7 +27,7 @@ int main() {
 			cout << "Number is too low. Guess again: ";
 		}
 		else {
-			cout << "Hooray! You have guess the number correctly in " << " tries." << endl;
+			cout << "Hooray! You have guess the number correctly in " << guessCount << " tries." << endl;
 		}
 	} while (guess != secretNumber);
 
