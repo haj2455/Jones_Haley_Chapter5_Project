@@ -2,19 +2,30 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+	int startSize;
+	double dailyIncrease;
+	int numDays;
+
+	cout << "Enter the starting number of people (minimum 2): ";
+	cin >> startSize;
+	while (startSize < 2) {
+		cout << "Invalid input. Enter a number greater than or equal to 2: ";
+		cin >> startSize
+	}
+
+	cout << "Enter the average daily population increase (as a percentage, non-negative): ";
+	cin >> dailyIncrease;
+	while (dailyIncrease < 0) {
+		cout << "Invalid input. Enter a non-negative number: ";
+		cin << dailyIncrease
+	}
+	cout << "Enter the number of days the people will mulyiply (minimum 1): ";
+	cin >> numDays;
+	while (numDays < 1) {
+		cout << "Invalid input. Enter a number greater than or equal to 1:";
+
+	}
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
